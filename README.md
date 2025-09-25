@@ -1,4 +1,3 @@
-README.md
 Aqui está o README que preparamos para o seu projeto, formatado e pronto para ser usado.
 
 🛒 Modelo de Banco de Dados para E-commerce
