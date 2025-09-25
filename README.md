@@ -1,5 +1,3 @@
-Aqui está o README que preparamos para o seu projeto, formatado e pronto para ser usado.
-
 🛒 Modelo de Banco de Dados para E-commerce
 Este projeto é um modelo de banco de dados relacional completo e funcional, projetado para ser o coração de uma plataforma de e-commerce. Ele abrange desde a gestão de clientes e produtos até a logística de pedidos e pagamentos, com um design focado em integridade, flexibilidade e escalabilidade.
 
