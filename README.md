@@ -23,3 +23,7 @@ Chaves Primárias e Estrangeiras (PK, FK): Garantem a integridade referencial en
 Relacionamentos N:M: Mapeamento de relações de muitos para muitos através de tabelas de junção, como produtoPedido e produtoFornecedor.
 
 Validações de Dados: Uso de restrições UNIQUE e CHECK para manter a consistência e a validade das informações.
+
+Modelo lógico seguido
+
+<img width="1455" height="955" alt="Diagrama logico banco de dados ecommerce" src="https://github.com/user-attachments/assets/eb57148c-63a0-49bd-b6b5-759d2a5af2ef" />
