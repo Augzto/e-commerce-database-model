@@ -26,4 +26,3 @@ Validações de Dados: Uso de restrições UNIQUE e CHECK para manter a consist�
 
 Modelo lógico seguido
 
-<img width="1455" height="955" alt="Diagrama logico banco de dados ecommerce" src="https://github.com/user-attachments/assets/eb57148c-63a0-49bd-b6b5-759d2a5af2ef" />
