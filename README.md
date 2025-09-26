@@ -24,5 +24,4 @@ Relacionamentos N:M: Mapeamento de relações de muitos para muitos através de 
 
 Validações de Dados: Uso de restrições UNIQUE e CHECK para manter a consistência e a validade das informações.
 
-Modelo lógico seguido
 
