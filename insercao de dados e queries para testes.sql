@@ -280,15 +280,15 @@ SELECT Pnome AS nome_produto, categoria, avaliacao,
 -- pedidos com mais de um produt0    
 SELECT pe.idPedido AS id_do_pedido, pe.descricaoPedido as descricacao_pedido, SUM(pp.ppQuantidade) AS total_de_itens, pe.frete
 	FROM pedido pe JOIN produto_Pedido pp 
-    ON pe.idPedido = pp.idPPpedido
-	GROUP BY pe.idPedido HAVING total_de_itens >1
-    ORDER BY total_de_itens DESC;    
+		ON pe.idPedido = pp.idPPpedido
+		GROUP BY pe.idPedido HAVING total_de_itens >1
+		ORDER BY total_de_itens DESC;    
     
 -- formas de pagamento por pedido    
 SELECT p.idPedido, p.descricaoPedido, fp.tipoPagamento as forma_pagamento, fp.numeroCartao, fp.bandeiraCartao
 	FROM pedido AS p JOIN forma_pagamento AS fp
 		ON p.idFormaPagamentoPedido = fp.idFormaPagamento
-	ORDER BY p.idPedido;
+		ORDER BY p.idPedido;
     
 -- tipos de pagamentos associados a cada cliente
 SELECT concat(c.Nome,' ',c.Sobrenome ) AS nome_cliente, fp.tipoPagamento, fp.bandeiraCartao, fp.numeroCartao
